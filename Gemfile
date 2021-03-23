@@ -54,6 +54,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'pry-rails'
 gem 'bootstrap', '~> 4.3.1.beta1'
+
 group :production do
   gem 'unicorn', '5.4.1'
 end
